@@ -13,7 +13,7 @@ bool obtuse() - повертає true якщо трикутник тупокут
 using namespace std;
 int main()
 {	Triangle_type Triangle(-1,2,2,0,5,-2);//об'єкт класу Triangle_type з параметрами
-    Triangle.sides_T();//обчислює квадрати сторін трикутника для знаходження типу трикутника
+        Triangle.sides_T();//обчислює квадрати сторін трикутника для знаходження типу трикутника
 	cout << "Triangle's coordinates: ";Triangle.Out(); cout << endl;//  виводить координати трикутника через пропуск і вкінці виводить перехід на новий рядок
 	cout << "Equilateral triangle:" << Triangle.equilateral()<<endl;// повертає true якщо трикутник рівносторонній в іншому випадку повертає false
 	cout << "Versatile triangle:  " << Triangle.versatile() << endl;//повертає true якщо трикутник різносторонній в іншому випадку повертає false
